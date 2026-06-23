@@ -122,7 +122,7 @@ export function loadLevel(scene, worldOctree, onProgress) {
     });
     
     const completionPlatform = new THREE.Mesh(platformGeometry, platformMaterial);
-    completionPlatform.position.set(-32.1, -6073, 0.16);
+    completionPlatform.position.set(-32.1, -6.73, 0.16);
     completionPlatform.castShadow = true;
     completionPlatform.receiveShadow = true;
     completionPlatform.userData.isCompletionPlatform = true;
